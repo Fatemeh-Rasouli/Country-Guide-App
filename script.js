@@ -2,6 +2,7 @@ let searchBtn = document.getElementById("search-btn");
 let countryInp = document.getElementById("country-inp");
 let result = document.getElementById("result");
 
+
 searchBtn.addEventListener("click", () => {
     let countryName = countryInp.value.trim();
     if (!countryName) return;
